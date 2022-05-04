@@ -1,7 +1,8 @@
 /* 全域設定與共通樣式 */
+
 *,*::before,*::after {
     box-sizing: border-box;
-    font-family: PingFang TC;
+    font: PingFang TC;
 }
 
 a {
@@ -36,7 +37,7 @@ img {
 }
 
 .border-secondary {
-    border: 1px sold #EAF0ED;
+    border: 1px solid #EAF0ED;
 }
 
 .bg-img {
@@ -146,4 +147,100 @@ img {
 .flex-mainBlock {
     display: flex;
     justify-content: space-between;
+}
+
+.sidebar {
+    width: 32%;
+}
+
+.products {
+    width: 65%;
+}
+
+.card {
+    width: 47.5%;
+}
+
+.sidebar ul {
+    font: normal normal 600 24px/40px PingFang TC;
+}
+
+.flex-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productImg  {
+    height: 315px;
+    position: relative;
+}
+
+.card p {
+    width: 100%;
+}
+
+.tag {
+    writing-mode:vertical-rl;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font: normal normal 600 16px/20px PingFang TC;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.favorite {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.flex-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.productName, .productPrice {
+    border: 1px solid #EAF0ED;
+    display: inline-block;
+}
+
+.productName {
+    width: 60%;
+    font: normal normal 300 20px/20px PingFang TC;
+}
+
+.productPrice {
+    width: 40%;
+    font: normal normal 600 20px/24px PingFang TC;
+}
+
+.addCart {
+    font: normal normal 600 24px/20px PingFang TC;
+}
+
+.pages {
+    text-align: right;
+}
+
+.page {
+    display:inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.pageLink {
+    display: block;
+    text-align: center; 
+    font: normal normal 300 20px/60px PingFang TC;  
+}
+
+.pageLink img {
+    vertical-align: middle;
 }
