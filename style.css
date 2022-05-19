@@ -252,19 +252,21 @@ img {
 }
 
 .pages {
-    text-align: right;
+    display: flex;
+    justify-content: end;
 }
 
 .page {
-    display:inline-block;
-    height: 60px;
-    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pageLink {
     display: block;
     text-align: center; 
     font: normal normal 300 20px/60px;  
+    padding: 30px;
 }
 
 .pageLink .linkImg {
