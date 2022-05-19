@@ -13,6 +13,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 .container {
@@ -38,6 +39,20 @@ img {
 
 .border-secondary {
     border: 1px solid #EAF0ED;
+}
+
+.hover-bg-secondary,.hover-bg-primary {
+    transition: all .3s;
+}
+
+.hover-bg-secondary:hover {
+    background-color: #EAF0ED;
+    color: #3F5D45;
+}
+
+.hover-bg-primary:hover {
+    background-color: #3F5D45;
+    color: #EAF0ED;
 }
 
 .bg-img {
@@ -117,7 +132,7 @@ img {
 /* 全域設定與共通樣式 結束*/
 
 /* 各別樣式 */
-.logo img{
+.logo .logoImg{
     height: 40px;
     width: auto;
 }
@@ -134,7 +149,15 @@ img {
     align-items: center;
 }
 
-.cart img {
+.menuLink {
+    font-weight: 600;
+}
+
+.menuLink:hover {
+    color: #1a2e1e;
+}
+
+.cart .cartImg {
     cursor: pointer;
 }
 
@@ -161,7 +184,7 @@ img {
     width: 47.5%;
 }
 
-.sidebar ul {
+.sideList {
     font: normal normal 600 24px/40px PingFang TC;
 }
 
@@ -176,7 +199,7 @@ img {
     position: relative;
 }
 
-.card p {
+.cardText {
     width: 100%;
 }
 
@@ -241,6 +264,7 @@ img {
     font: normal normal 300 20px/60px PingFang TC;  
 }
 
-.pageLink img {
+.pageLink .linkImg {
     vertical-align: middle;
+    display: inline;
 }
