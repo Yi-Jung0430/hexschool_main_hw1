@@ -2,7 +2,11 @@
 
 *,*::before,*::after {
     box-sizing: border-box;
-    font: PingFang TC;
+    
+}
+
+body {
+    font-family: "PingFang TC";
 }
 
 a {
@@ -185,7 +189,7 @@ img {
 }
 
 .sideList {
-    font: normal normal 600 24px/40px PingFang TC;
+    font: normal normal 600 24px/40px;
 }
 
 .flex-products {
@@ -209,7 +213,7 @@ img {
     padding: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
-    font: normal normal 600 16px/20px PingFang TC;
+    font: normal normal 600 16px/20px;
     letter-spacing: 3px;
     position: absolute;
     left: 20px;
@@ -236,16 +240,16 @@ img {
 
 .productName {
     width: 60%;
-    font: normal normal 300 20px/20px PingFang TC;
+    font: normal normal 300 20px/20px;
 }
 
 .productPrice {
     width: 40%;
-    font: normal normal 600 20px/24px PingFang TC;
+    font: normal normal 600 20px/24px;
 }
 
 .addCart {
-    font: normal normal 600 24px/20px PingFang TC;
+    font: normal normal 600 24px/20px;
 }
 
 .pages {
@@ -261,7 +265,7 @@ img {
 .pageLink {
     display: block;
     text-align: center; 
-    font: normal normal 300 20px/60px PingFang TC;  
+    font: normal normal 300 20px/60px;  
 }
 
 .pageLink .linkImg {
