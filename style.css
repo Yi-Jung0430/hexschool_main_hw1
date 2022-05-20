@@ -136,10 +136,20 @@ img {
 /* 全域設定與共通樣式 結束*/
 
 /* 各別樣式 */
-.logo .logoImg{
-    height: 40px;
-    width: auto;
+
+/* 圖片取代文字 */
+.logo {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
+    height: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 183px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 
 .header-flex {
     display: flex;
