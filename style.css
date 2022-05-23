@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "PingFang TC";
+    font-family: "PingFang TC", sans-serif;
 }
 
 a {
@@ -133,6 +133,18 @@ img {
     padding-bottom: 16px;
 }
 
+.d-flex { 
+    display: flex; 
+}
+
+.justify-content-between { 
+    justify-content: space-between;
+}
+
+.align-items-center { 
+    align-items: center; 
+}
+
 /* 全域設定與共通樣式 結束*/
 
 /* 各別樣式 */
@@ -148,19 +160,6 @@ img {
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
-}
-
-
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menuLink {
@@ -202,19 +201,13 @@ img {
     font-weight: 600;
 }
 
-.flex-products {
-    display: flex;
-    justify-content: space-between;
+.products-wrap {
     flex-wrap: wrap;
 }
 
 .productImg  {
     height: 315px;
     position: relative;
-}
-
-.cardText {
-    width: 100%;
 }
 
 .tag {
@@ -236,15 +229,8 @@ img {
     right: 22px;
 }
 
-.flex-text {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .productName, .productPrice {
     border: 1px solid #EAF0ED;
-    display: inline-block;
 }
 
 .productName {
