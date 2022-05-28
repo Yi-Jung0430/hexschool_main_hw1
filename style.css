@@ -166,23 +166,19 @@ img {
     font-weight: 600;
 }
 
+.menuLink {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.cart .menuLink {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+
 .menuLink:hover {
     color: #1a2e1e;
-}
-
-.cart .cartImg {
-    cursor: pointer;
-}
-
-.banner {
-    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png);
-    height: 496px;
-    width: 100%;
-}
-
-.flex-mainBlock {
-    display: flex;
-    justify-content: space-between;
 }
 
 .sidebar {
